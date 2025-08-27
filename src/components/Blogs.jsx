@@ -18,7 +18,7 @@ const blogs = [
     title: "Surprise steepest recurred landlord mr wandered",
     excerpt: `Quick intro for this dummy blog to show on preview. 
               You can expand more on what readers can expect here. 
-              Keep it short and engaging.`,
+              Keep it short and engaging`,
     content:
       "Full blog content for Blog 2. This should be detailed and structured properly when you write real blogs. Currently, it's placeholder text.",
     image: "/fake.jpg",
