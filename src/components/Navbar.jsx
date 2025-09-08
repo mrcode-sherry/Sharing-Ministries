@@ -12,9 +12,6 @@ const Navbar = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Ministries', href: '/ministries' },
-    { name: 'Events', href: '/events' },
-    { name: 'Gallery', href: '/gallery' },
-    { name: 'Donate', href: '/donate' },
     { name: 'Contact', href: '/contact' },
   ];
 
