@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import Link from "next/link";
+import { useParams } from "next/navigation";
 
-// Real projects data
+// Dummy project data (same as Projects.jsx)
 const projects = [
     {
         id: "1",
@@ -14,7 +14,7 @@ Our vision is to see the gospel spread across nations, bringing light to dark pl
 Through worship, prayer, and the preaching of God’s Word, we bring together communities to encounter the love, hope, and salvation found only in Jesus. We believe that every soul is precious to God, and our mission is to reach as many as possible with His truth.
 
 In each crusade, we witness hearts turning to Christ, chains of bondage being broken, and faith being ignited. Men, women, and children come together in unity, lifting their hands in praise and opening their hearts to receive God’s blessings.`,
-        images: ["/project1-1.jpg", "/project1-2.jpg", "/project1-3.jpg"],
+        images: ["/fake.jpg", "/fake.jpg", "/fake.jpg"],
     },
     {
         id: "2",
@@ -70,55 +70,41 @@ Your support enables us to reach more people with life-changing help. Together, 
     },
 ];
 
-const Projects = () => {
-  return (
-    <div className="px-8 md:px-20 py-12">
-      {/* Section Heading */}
-      <div className="text-center mb-12">
-        <p className="text-[#5BB7E6] uppercase tracking-widest text-[18px] font-bold">
-          Our Ministries
-        </p>
-        <h2 className="text-2xl md:text-[40px] w-full md:w-[600px] mx-auto font-semibold text-black mt-2">
-          Explore our impactful Minsitries around the world
-        </h2>
+const ProjectDetails = () => {
+    const { id } = useParams();
+    const project = projects.find((p) => p.id === id);
 
-        {/* Decorative underline */}
-        <div className="flex justify-center mt-4">
-          <span className="w-8 h-1 bg-[#5BB7E6] rounded-full mx-1"></span>
-          <span className="w-4 h-1 bg-[#5BB7E6] rounded-full mx-1"></span>
-        </div>
-      </div>
-
-      {/* Projects Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        {projects.map((project) => (
-          <Link
-            key={project.id}
-            href={`/ministries/${project.id}`}
-            className="block bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl"
-          >
-            {/* First Image */}
-            <img
-              src={project.images[0]}
-              alt={project.title}
-              className="w-full h-56 object-cover"
-            />
-
-            <div className="p-6">
-              <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
-              {/* Only one line excerpt */}
-              <p className="text-gray-600 mb-6 line-clamp-1">
-                {project.description}
-              </p>
-              <span className="px-4 py-2 border border-[#0085DD] duration-300 cursor-pointer hover:bg-[#0085DD] text-black hover:text-white rounded-lg text-sm inline-block">
-                View Project
-              </span>
+    if (!project) {
+        return (
+            <div className="px-8 md:px-20 py-12 text-center">
+                <h2 className="text-2xl font-bold text-red-500">Project not found</h2>
             </div>
-          </Link>
-        ))}
-      </div>
-    </div>
-  );
+        );
+    }
+
+    return (
+        <div className="px-8 md:px-20 py-12">
+            {/* Image Slider */}
+            <div className="relative w-full max-w-4xl mx-auto mb-8">
+                <div className="flex overflow-x-scroll space-x-4 scrollbar-hide">
+                    {project.images.map((img, index) => (
+                        <img
+                            key={index}
+                            src={img}
+                            alt={`${project.title} ${index + 1}`}
+                            className="w-[90%] md:w-[70%] flex-shrink-0 rounded-lg shadow-lg"
+                        />
+                    ))}
+                </div>
+            </div>
+
+            {/* Title & Description */}
+            <h1 className="text-3xl font-bold mb-4">{project.title}</h1>
+            <p className="text-gray-700 text-lg leading-relaxed">
+                {project.description}
+            </p>
+        </div>
+    );
 };
 
-export default Projects;
+export default ProjectDetails;
