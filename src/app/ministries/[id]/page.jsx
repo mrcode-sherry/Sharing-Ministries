@@ -14,7 +14,7 @@ Our vision is to see the gospel spread across nations, bringing light to dark pl
 Through worship, prayer, and the preaching of God’s Word, we bring together communities to encounter the love, hope, and salvation found only in Jesus. We believe that every soul is precious to God, and our mission is to reach as many as possible with His truth.
 
 In each crusade, we witness hearts turning to Christ, chains of bondage being broken, and faith being ignited. Men, women, and children come together in unity, lifting their hands in praise and opening their hearts to receive God’s blessings.`,
-        images: ["/fake.jpg", "/fake.jpg", "/fake.jpg"],
+        images: ["/crusade/Crusadeimg1.jpg", "/crusade/Crusadeimg2.jpg", "/crusade/Crusadeimg3.jpg"],
     },
     {
         id: "2",
@@ -27,7 +27,7 @@ In these gatherings, we share God’s Word in a simple, powerful way that speaks
 These meetings are often the first encounter many have with the Gospel, and we have witnessed countless lives transformed — families restored, hearts healed, and faith awakened. Outdoor evangelism is our way of carrying light into the darkest places and showing that Jesus cares for every soul.
 
 "How beautiful are the feet of those who bring good news!" – Romans 10:15`,
-        images: ["/project2-1.jpg", "/project2-2.jpg", "/project2-3.jpg"],
+        images: ["/outdoor/Outdoorimg1.jpg", "/outdoor/Outdoorimg2.jpg"],
     },
     {
         id: "3",
@@ -42,7 +42,7 @@ Our mission is not only to meet physical needs but also to share the message of 
 “For I was hungry and you gave me something to eat…” – Matthew 25:35
 
 Together, we can make a difference—one family, one meal, and one act of love at a time.`,
-        images: ["/project3-1.jpg", "/project3-2.jpg", "/project3-3.jpg"],
+        images: ["/food/Foodimg1.jpg", "/food/Foodimg2.jpg", "/food/Foodimg3.jpg"],
     },
     {
         id: "4",
@@ -66,7 +66,7 @@ This work is made possible through the dedication of compassionate volunteers an
 “He heals the brokenhearted and binds up their wounds.” – Psalm 147:3
 
 Your support enables us to reach more people with life-changing help. Together, we can save lives and share God’s love in practical ways.`,
-        images: ["/project4-1.jpg", "/project4-2.jpg", "/project4-3.jpg"],
+        images: ["/medical/Medicalimg1.jpg", "/medical/Medica2.jpg", "/medical/Medicalimg3.jpg"],
     },
 ];
 

@@ -1,5 +1,4 @@
-"use client";
-import React from "react";
+import React from 'react'
 import Link from "next/link";
 
 // Real projects data
@@ -29,48 +28,9 @@ These meetings are often the first encounter many have with the Gospel, and we h
 "How beautiful are the feet of those who bring good news!" – Romans 10:15`,
         images: ["/outdoor/Outdoorimg1.jpg", "/outdoor/Outdoorimg2.jpg"],
     },
-    {
-        id: "3",
-        title: "Food distribution",
-        description:
-            `At Jesus Sharing Ministries, we believe in showing the love of Christ through practical acts of kindness. One of our key outreach efforts is our Food Relief Program, dedicated to supporting families in need.
+]
 
-In many communities, poverty and lack of resources leave families struggling to meet their daily needs. Through the generosity , we are able to distribute essential food packages to the most vulnerable. Each package contains basic food items to help sustain families and bring hope during difficult times.
-
-Our mission is not only to meet physical needs but also to share the message of God's love and compassion. During each distribution, we take time to pray with recipients, encourage them, and remind them that they are not forgotten.
-
-“For I was hungry and you gave me something to eat…” – Matthew 25:35
-
-Together, we can make a difference—one family, one meal, and one act of love at a time.`,
-        images: ["/food/Foodimg1.jpg", "/food/Foodimg2.jpg", "/food/Foodimg3.jpg"],
-    },
-    {
-        id: "4",
-        title: "Medical help",
-        description:
-            `At Jesus Sharing Ministries, we understand that many families in rural and underprivileged areas face serious health challenges but have little or no access to proper medical care. Through our Social Ministry, we extend the love of Christ by offering medical assistance to those in need.
-
-Our medical outreach programs provide:
-
-Free medical check-ups for individuals and families
-
-Basic medicines for common illnesses
-
-Guidance and health education to promote better living
-
-Referrals for those requiring specialized care
-
-
-This work is made possible through the dedication of compassionate volunteers and the generosity of donors who believe in our mission. Just as Jesus cared for the sick and healed the broken, we strive to follow His example by bringing hope, comfort, and healing to both body and soul.
-
-“He heals the brokenhearted and binds up their wounds.” – Psalm 147:3
-
-Your support enables us to reach more people with life-changing help. Together, we can save lives and share God’s love in practical ways.`,
-        images: ["/medical/Medicalimg1.jpg", "/medical/Medica2.jpg", "/medical/Medicalimg3.jpg"],
-    },
-];
-
-const Projects = () => {
+const Homeministry = () => {
   return (
     <div className="px-8 md:px-20 py-12">
       {/* Section Heading */}
@@ -117,8 +77,16 @@ const Projects = () => {
           </Link>
         ))}
       </div>
+      <div className="mx-auto mt-12 justify-center flex">
+            <Link
+              href="/ministries"
+              className="bg-[#5BB7E6] hover:bg-[#0085DD] text-white px-5 py-2 rounded-lg font-semibold transition-colors duration-300"
+            >
+              View All Ministries
+            </Link>
+          </div>
     </div>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Homeministry
