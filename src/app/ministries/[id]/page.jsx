@@ -42,7 +42,7 @@ Our mission is not only to meet physical needs but also to share the message of 
 “For I was hungry and you gave me something to eat…” – Matthew 25:35
 
 Together, we can make a difference—one family, one meal, and one act of love at a time.`,
-        images: ["/food/Foodimg1.jpg", "/food/Foodimg2.jpg", "/food/Foodimg3.jpg"],
+        images: ["/food/Foodimg2.jpg", "/food/Foodimg1.jpg", "/food/Foodimg3.jpg"],
     },
     {
         id: "4",
@@ -67,6 +67,28 @@ This work is made possible through the dedication of compassionate volunteers an
 
 Your support enables us to reach more people with life-changing help. Together, we can save lives and share God’s love in practical ways.`,
         images: ["/medical/Medicalimg1.jpg", "/medical/Medica2.jpg", "/medical/Medicalimg3.jpg"],
+    },
+    {
+        id: "5",
+        title: "Kids ministry",
+        description:
+            `At Jesus Sharing Ministries, our heart beats for the children—especially those who are often forgotten. Many of the children we reach work in factories or labor alongside their families, unable to attend school or enjoy a normal childhood. Through our Kids Ministry, we are committed to bringing them hope, love, and the message of Jesus Christ.
+
+We organize special gatherings where children can learn Bible stories, sing songs, express their creativity through drawing and crafts, and simply enjoy being kids. These moments not only plant seeds of faith but also encourage them to dream beyond their current struggles.
+
+Our mission is to give these precious children a safe space where they are valued, encouraged, and reminded that they are loved by God and created for a purpose. By reaching them today, we believe we are shaping a brighter, faith-filled tomorrow.`,
+        images: ["/kids/kidsimg1.jpg", "/kids/kidsimg2.jpg"],
+    },
+    {
+        id: "6",
+        title: "Reaching communities",
+        description:
+            `At Jesus Sharing Ministries, we believe that the Gospel is for everyone—no matter where they live or what their circumstances may be. Through our Reaching Communities Ministry, we go into villages, rural areas, and underprivileged neighborhoods to share the Good News of Jesus Christ.
+
+Many of the communities we visit have limited access to churches, pastors, or any Christian fellowship. We gather with them in homes, courtyards, and open spaces, bringing worship, the Word of God, and prayer into their midst. These meetings are often filled with heartfelt worship, powerful preaching, and life-changing encounters with God’s presence.
+
+Our mission is not only to preach but to build lasting relationships, encourage believers, and bring hope to those who feel forgotten. We believe that by reaching out in love and compassion, lives will be transformed, families restored, and entire communities impacted for the glory of God.`,
+        images: ["/reaching/reachingimg1.jpg", "/reaching/reachingimg2.jpg"],
     },
 ];
 
