@@ -3,7 +3,7 @@ import { MapPin, Mail, Phone } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div className="px-8 md:px-20 py-12">
+    <div className="px-8 md:px-20 py-12 bg-white">
       {/* Section Heading */}
       <div className="text-center mb-12">
         <p className="text-[#5BB7E6] uppercase tracking-widest text-[18px] font-bold">
@@ -37,7 +37,7 @@ const Contact = () => {
                 type="text"
                 id="name"
                 placeholder="Enter your name"
-                className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:border-none focus:ring-[#5BB7E6]"
+                className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:border-none focus:ring-[#5BB7E6] text-gray-800"
               />
             </div>
 
@@ -53,7 +53,7 @@ const Contact = () => {
                 type="email"
                 id="email"
                 placeholder="Enter your email"
-                className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:border-none focus:ring-[#5BB7E6]"
+                className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:border-none focus:ring-[#5BB7E6] text-gray-800"
               />
             </div>
 
@@ -69,7 +69,7 @@ const Contact = () => {
                 type="text"
                 id="phone"
                 placeholder="Enter your phone number"
-                className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:border-none focus:ring-[#5BB7E6]"
+                className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:border-none focus:ring-[#5BB7E6] text-gray-800"
               />
             </div>
 
@@ -85,7 +85,7 @@ const Contact = () => {
                 id="message"
                 placeholder="Write your message"
                 rows="4"
-                className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:border-none focus:ring-[#5BB7E6]"
+                className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:border-none focus:ring-[#5BB7E6] text-gray-800"
               ></textarea>
             </div>
 

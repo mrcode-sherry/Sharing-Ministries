@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className="px-8 md:px-20 py-12">
+        <div className="px-8 md:px-20 py-12 bg-white">
             {/* Section Heading */}
             <div className="text-center mb-12">
                 <p className="text-[#5BB7E6] uppercase tracking-widest text-[18px] font-bold">

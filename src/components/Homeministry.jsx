@@ -32,7 +32,7 @@ These meetings are often the first encounter many have with the Gospel, and we h
 
 const Homeministry = () => {
   return (
-    <div className="px-8 md:px-20 py-12">
+    <div className="px-8 md:px-20 py-12 bg-white">
       {/* Section Heading */}
       <div className="text-center mb-12">
         <p className="text-[#5BB7E6] uppercase tracking-widest text-[18px] font-bold">
@@ -65,7 +65,7 @@ const Homeministry = () => {
             />
 
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
+              <h3 className="text-xl font-semibold mb-3 text-black">{project.title}</h3>
               {/* Only one line excerpt */}
               <p className="text-gray-600 mb-6 line-clamp-1">
                 {project.description}
