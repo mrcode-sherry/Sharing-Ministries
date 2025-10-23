@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Hero = () => {
@@ -16,7 +17,7 @@ const Hero = () => {
       </video>
 
       {/* Overlay */}
-      <div className="absolute top-0 left-0 w-full h-full bg-black/80 z-10"></div>
+      <div className="absolute top-0 left-0 w-full h-full z-10"></div>
 
       {/* Text Content */}
       <div className="relative z-20 flex items-center h-full px-8 md:px-20">
@@ -39,9 +40,11 @@ const Hero = () => {
 
           {/* Button */}
           <div>
+            <Link href="/ministries">
             <button className="px-5 py-2 sm:px-6 sm:py-3 bg-[#5BB7E6] hover:bg-[#0085DD] text-white font-semibold rounded-lg text-base sm:text-lg transition duration-300 shadow-lg cursor-pointer w-auto sm:w-auto">
-              Explore Projects
+              Explore Ministries
             </button>
+            </Link>
           </div>
         </div>
       </div>

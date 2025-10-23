@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 
 // Dummy project data (same as Projects.jsx)
 const projects = [
@@ -26,7 +26,7 @@ In these gatherings, we share God’s Word in a simple, powerful way that speaks
 
 These meetings are often the first encounter many have with the Gospel, and we have witnessed countless lives transformed — families restored, hearts healed, and faith awakened. Outdoor evangelism is our way of carrying light into the darkest places and showing that Jesus cares for every soul.
 
-"How beautiful are the feet of those who bring good news!" – Romans 10:15`,
+"How beautiful are the feet of those who bring good news!" – Romans 10:15`,
         images: ["/outdoor/Outdoorimg1.jpg", "/outdoor/Outdoorimg2.jpg"],
     },
     {
@@ -41,12 +41,12 @@ Our mission is not only to meet physical needs but also to share the message of 
 
 “For I was hungry and you gave me something to eat…” – Matthew 25:35
 
-Together, we can make a difference—one family, one meal, and one act of love at a time.`,
+Together, we can make a difference—one family, one meal, and one act of love at a time.`,
         images: ["/food/Foodimg2.jpg", "/food/Foodimg1.jpg", "/food/Foodimg3.jpg"],
     },
     {
         id: "4",
-        title: "Medical help",
+        title: "Medical help",
         description:
             `At Jesus Sharing Ministries, we understand that many families in rural and underprivileged areas face serious health challenges but have little or no access to proper medical care. Through our Social Ministry, we extend the love of Christ by offering medical assistance to those in need.
 
@@ -65,7 +65,7 @@ This work is made possible through the dedication of compassionate volunteers an
 
 “He heals the brokenhearted and binds up their wounds.” – Psalm 147:3
 
-Your support enables us to reach more people with life-changing help. Together, we can save lives and share God’s love in practical ways.`,
+Your support enables us to reach more people with life-changing help. Together, we can save lives and share God’s love in practical ways.`,
         images: ["/medical/Medicalimg1.jpg", "/medical/Medica2.jpg", "/medical/Medicalimg3.jpg"],
     },
     {
@@ -76,7 +76,7 @@ Your support enables us to reach more people with life-changing help. Together, 
 
 We organize special gatherings where children can learn Bible stories, sing songs, express their creativity through drawing and crafts, and simply enjoy being kids. These moments not only plant seeds of faith but also encourage them to dream beyond their current struggles.
 
-Our mission is to give these precious children a safe space where they are valued, encouraged, and reminded that they are loved by God and created for a purpose. By reaching them today, we believe we are shaping a brighter, faith-filled tomorrow.`,
+Our mission is to give these precious children a safe space where they are valued, encouraged, and reminded that they are loved by God and created for a purpose. By reaching them today, we believe we are shaping a brighter, faith-filled tomorrow.`,
         images: ["/kids/kidsimg1.jpg", "/kids/kidsimg2.jpg"],
     },
     {
@@ -87,13 +87,14 @@ Our mission is to give these precious children a safe space where they are value
 
 Many of the communities we visit have limited access to churches, pastors, or any Christian fellowship. We gather with them in homes, courtyards, and open spaces, bringing worship, the Word of God, and prayer into their midst. These meetings are often filled with heartfelt worship, powerful preaching, and life-changing encounters with God’s presence.
 
-Our mission is not only to preach but to build lasting relationships, encourage believers, and bring hope to those who feel forgotten. We believe that by reaching out in love and compassion, lives will be transformed, families restored, and entire communities impacted for the glory of God.`,
+Our mission is not only to preach but to build lasting relationships, encourage believers, and bring hope to those who feel forgotten. We believe that by reaching out in love and compassion, lives will be transformed, families restored, and entire communities impacted for the glory of God.`,
         images: ["/reaching/reachingimg1.jpg", "/reaching/reachingimg2.jpg"],
     },
 ];
 
 const ProjectDetails = () => {
     const { id } = useParams();
+    const router = useRouter();
     const project = projects.find((p) => p.id === id);
 
     if (!project) {
@@ -106,8 +107,15 @@ const ProjectDetails = () => {
 
     return (
         <div className="px-8 md:px-20 py-12">
+            <button
+                onClick={() => router.push("/ministries")}
+                className="flex items-center gap-2 bg-[#5BB7E6] hover:bg-[#0085DD] cursor-pointer text-white font-semibold px-5 py-2 rounded-full shadow-md transition duration-200"
+            >
+                <span className="text-lg">←</span> Back
+            </button>
+
             {/* Image Slider */}
-            <div className="relative w-full max-w-4xl mx-auto mb-8">
+            <div className="relative w-full max-w-4xl mt-10 mx-auto mb-8">
                 <div className="flex overflow-x-scroll space-x-4 scrollbar-hide">
                     {project.images.map((img, index) => (
                         <img

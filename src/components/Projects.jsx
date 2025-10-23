@@ -133,7 +133,7 @@ const Projects = () => {
                 {project.description}
               </p>
               <span className="px-4 py-2 border border-[#0085DD] duration-300 cursor-pointer hover:bg-[#0085DD] text-black hover:text-white rounded-lg text-sm inline-block">
-                View Project
+                View Ministry
               </span>
             </div>
           </Link>
