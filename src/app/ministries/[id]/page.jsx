@@ -99,14 +99,14 @@ const ProjectDetails = () => {
 
     if (!project) {
         return (
-            <div className="px-8 md:px-20 py-12 text-center">
+            <div className="px-8 md:px-20 py-12 text-center bg-white">
                 <h2 className="text-2xl font-bold text-red-500">Project not found</h2>
             </div>
         );
     }
 
     return (
-        <div className="px-8 md:px-20 py-12">
+        <div className="px-8 md:px-20 py-12 bg-white">
             <button
                 onClick={() => router.push("/ministries")}
                 className="flex items-center gap-2 bg-[#5BB7E6] hover:bg-[#0085DD] cursor-pointer text-white font-semibold px-5 py-2 rounded-full shadow-md transition duration-200"
@@ -129,7 +129,7 @@ const ProjectDetails = () => {
             </div>
 
             {/* Title & Description */}
-            <h1 className="text-3xl font-bold mb-4">{project.title}</h1>
+            <h1 className="text-3xl font-bold mb-4 text-black">{project.title}</h1>
             <p className="text-gray-700 text-lg leading-relaxed">
                 {project.description}
             </p>
