@@ -84,8 +84,8 @@ const Navbar = () => {
           {/* Mobile Menu Button - only show when drawer is not mounted */}
           <div className="md:hidden flex items-center">
             {!isMounted && (
-              <button onClick={openMenu} aria-label="Open menu">
-                <Menu size={28} />
+              <button className='text-black' onClick={openMenu} aria-label="Open menu">
+                <Menu size={28} className='text-black'/>
               </button>
             )}
           </div>
