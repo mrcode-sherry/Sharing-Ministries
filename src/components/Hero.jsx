@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[120vh]">
+    <div className="relative w-full h-screen md:h-[120vh]">
       {/* Background Video */}
       <video
         autoPlay
@@ -17,31 +17,31 @@ const Hero = () => {
       </video>
 
       {/* Overlay */}
-      <div className="absolute top-0 left-0 w-full h-full z-10"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-black/40 z-10"></div>
 
       {/* Text Content */}
-      <div className="relative z-20 flex items-center h-full px-8 md:px-20">
-        <div className="text-white max-w-3xl space-y-4 sm:space-y-6">
+      <div className="relative z-20 flex items-center justify-center h-full px-6 md:px-20">
+        <div className="text-white max-w-3xl space-y-3 sm:space-y-4 md:space-y-6 text-center md:text-left">
           {/* Small Heading */}
-          <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-gray-200 tracking-wide">
+          <h3 className="text-base sm:text-lg md:text-2xl font-medium text-gray-100 tracking-wide">
             Empowering Communities Together
           </h3>
 
           {/* Main Heading */}
-          <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold whitespace-nowrap">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight">
             Welcome to Our Website
           </h1>
 
           {/* Paragraph */}
-          <p className="text-base sm:text-lg md:text-2xl leading-relaxed">
+          <p className="text-sm sm:text-base md:text-2xl leading-relaxed text-gray-100">
             This is a responsive hero section with a fullscreen video background and overlay. 
             Explore our work, join our mission, and be part of something impactful.
           </p>
 
           {/* Button */}
-          <div>
+          <div className="pt-2">
             <Link href="/ministries">
-            <button className="px-5 py-2 sm:px-6 sm:py-3 bg-[#5BB7E6] hover:bg-[#0085DD] text-white font-semibold rounded-lg text-base sm:text-lg transition duration-300 shadow-lg cursor-pointer w-auto sm:w-auto">
+            <button className="px-6 py-3 sm:px-7 sm:py-3 md:px-8 md:py-4 bg-[#5BB7E6] hover:bg-[#0085DD] text-white font-semibold rounded-lg text-sm sm:text-base md:text-lg transition duration-300 shadow-lg cursor-pointer">
               Explore Ministries
             </button>
             </Link>

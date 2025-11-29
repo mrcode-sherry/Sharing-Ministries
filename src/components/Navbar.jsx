@@ -13,7 +13,6 @@ const Navbar = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Ministries', href: '/ministries' },
-    { name: 'Contact', href: '/contact' },
   ];
 
   const openMenu = () => {
@@ -74,10 +73,10 @@ const Navbar = () => {
           {/* Right: Donation button (Desktop) */}
           <div className="hidden md:block">
             <Link
-              href="/donate"
+              href="/contact"
               className="bg-[#5BB7E6] hover:bg-[#0085DD] text-white px-5 py-2 rounded-lg font-semibold transition-colors duration-300"
             >
-              Donate
+              Contact
             </Link>
           </div>
 
@@ -144,11 +143,11 @@ const Navbar = () => {
               ))}
 
               <Link
-                href="/donate"
+                href="/contact"
                 onClick={closeMenu}
                 className="block px-3 py-3 rounded-md bg-[#5BB7E6] text-white hover:bg-[#0085DD] font-semibold transition-colors duration-300 text-center"
               >
-                Donate
+                Contact
               </Link>
             </div>
           </aside>

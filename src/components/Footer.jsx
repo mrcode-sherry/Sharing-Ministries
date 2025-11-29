@@ -99,7 +99,6 @@ const Footer = () => {
               { name: "About", link: "/about" },
               { name: "Ministries", link: "/ministries" },
               { name: "Contact", link: "/contact" },
-              { name: "Donate", link: "/donate" },
             ].map((item) => (
               <li key={item.name}>
                 <Link
@@ -113,17 +112,17 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* 4️⃣ Donate Section */}
+        {/* 4️⃣ Get In Touch Section */}
         <div>
-          <h3 className="text-xl font-semibold text-white mb-6">Support Us</h3>
+          <h3 className="text-xl font-semibold text-white mb-6">Get In Touch</h3>
           <p className="text-base mb-6 leading-relaxed">
-            Your support helps us continue our mission. Every donation makes a difference.
+            Have questions or want to learn more about our mission? We'd love to hear from you.
           </p>
           <Link 
-            href="/donate" 
+            href="/contact" 
             className="inline-block bg-[#0085DD] text-white font-medium px-6 py-3 rounded-lg shadow transition-transform duration-300 hover:scale-105"
           >
-            Donate Now
+            Contact Us
           </Link>
         </div>
       </div>
