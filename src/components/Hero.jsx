@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-black/40 z-10"></div>
 
       {/* Text Content */}
-      <div className="relative z-20 flex items-center justify-center h-full px-6 md:px-20">
+      <div className="relative z-20 flex items-center justify-center md:justify-start h-full px-6 md:px-20">
         <div className="text-white max-w-3xl space-y-3 sm:space-y-4 md:space-y-6 text-center md:text-left">
           {/* Small Heading */}
           <h3 className="text-base sm:text-lg md:text-2xl font-medium text-gray-100 tracking-wide">
