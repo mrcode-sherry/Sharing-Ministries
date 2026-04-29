@@ -22,120 +22,73 @@ const Contact = () => {
 
       {/* Contact Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        {/* Contact Form */}
-        <div className="bg-gray-100 shadow-lg rounded-xl p-8">
-          <form className="space-y-6">
-            {/* Name */}
-            <div>
-              <label
-                htmlFor="name"
-                className="block text-gray-700 font-medium mb-2"
-              >
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                placeholder="Enter your name"
-                className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:border-none focus:ring-[#5BB7E6] text-gray-800"
-              />
-            </div>
-
-            {/* Email */}
-            <div>
-              <label
-                htmlFor="email"
-                className="block text-gray-700 font-medium mb-2"
-              >
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                placeholder="Enter your email"
-                className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:border-none focus:ring-[#5BB7E6] text-gray-800"
-              />
-            </div>
-
-            {/* Phone */}
-            <div>
-              <label
-                htmlFor="phone"
-                className="block text-gray-700 font-medium mb-2"
-              >
-                Phone
-              </label>
-              <input
-                type="text"
-                id="phone"
-                placeholder="Enter your phone number"
-                className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:border-none focus:ring-[#5BB7E6] text-gray-800"
-              />
-            </div>
-
-            {/* Message */}
-            <div>
-              <label
-                htmlFor="message"
-                className="block text-gray-700 font-medium mb-2"
-              >
-                Message
-              </label>
-              <textarea
-                id="message"
-                placeholder="Write your message"
-                rows="4"
-                className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:border-none focus:ring-[#5BB7E6] text-gray-800"
-              ></textarea>
-            </div>
-
-            {/* Submit Button */}
-            <button
-              type="submit"
-              className="w-full cursor-pointer bg-[#5BB7E6] hover:bg-[#0085DD] text-white font-semibold py-3 rounded-lg transition duration-300 text-lg"
-            >
-              Send Message
-            </button>
-          </form>
-        </div>
-
-        {/* Contact Info */}
+        {/* Contact Info - Left Side */}
         <div className="bg-gray-100 shadow-lg rounded-xl p-8 space-y-8">
-          {/* Location */}
           <div>
-            <h1 className="text-2xl text-center font-semibold text-black mb-4"> Contact Information </h1>
+            <h1 className="text-2xl text-center font-semibold text-black mb-6">Contact Information</h1>
           </div>
-          <div className="flex items-center space-x-4">
-            <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-dashed border-[#5BB7E6]">
-              <MapPin className="w-6 h-6 text-[#5BB7E6]" />
+          
+          {/* Location */}
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-dashed border-[#5BB7E6] flex-shrink-0">
+              <MapPin size={24} className="text-[#5BB7E6]" />
             </div>
             <div>
               <p className="font-semibold text-black">Our Location</p>
-              <p className="text-gray-600">123 Street, Lahore, Pakistan</p>
+              <p className="text-gray-600">Street # 3, block-A, barkat Pura, mohalla Waris Pura, Faisalabad, Pakistan.</p>
             </div>
           </div>
 
           {/* Email */}
-          <div className="flex items-center space-x-4">
-            <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-dashed border-[#5BB7E6]">
-              <Mail className="w-6 h-6 text-[#5BB7E6]" />
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-dashed border-[#5BB7E6] flex-shrink-0">
+              <Mail size={24} className="text-[#5BB7E6]" />
             </div>
             <div>
               <p className="font-semibold text-black">Send Us Mail</p>
-              <p className="text-gray-600">info@example.com</p>
+              <div className="space-y-1">
+                <a href="mailto:Jabneeamir@gmail.com" className="text-[#5BB7E6] hover:text-[#0085DD] transition-colors block">
+                  Jabneeamir@gmail.com
+                </a>
+                <a href="mailto:evangelistsharoonshahzad@gmail.com" className="text-[#5BB7E6] hover:text-[#0085DD] transition-colors block">
+                  evangelistsharoonshahzad@gmail.com
+                </a>
+              </div>
             </div>
           </div>
 
           {/* Phone */}
-          <div className="flex items-center space-x-4">
-            <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-dashed border-[#5BB7E6]">
-              <Phone className="w-6 h-6 text-[#5BB7E6]" />
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-dashed border-[#5BB7E6] flex-shrink-0">
+              <Phone size={24} className="text-[#5BB7E6]" />
             </div>
             <div>
               <p className="font-semibold text-black">Call Us</p>
-              <p className="text-gray-600">+92 300 1234567</p>
+              <div className="space-y-1">
+                <a href="tel:+923338362483" className="text-[#5BB7E6] hover:text-[#0085DD] transition-colors block">
+                  +92 333 8362483
+                </a>
+                <a href="tel:+923046325687" className="text-[#5BB7E6] hover:text-[#0085DD] transition-colors block">
+                  +92 304 6325687
+                </a>
+              </div>
             </div>
           </div>
+        </div>
+
+        {/* Contact Image & Description - Right Side */}
+        <div className="bg-gray-100 shadow-lg rounded-xl p-8 flex flex-col justify-center items-center text-center">
+          <img
+            src="/contact-image.jpg"
+            alt="Contact Us"
+            className="w-full h-64 object-cover rounded-lg mb-6"
+          />
+          <h3 className="text-xl font-semibold text-black mb-4">Get In Touch</h3>
+          <p className="text-gray-600 leading-relaxed">
+            We would love to hear from you! Whether you have questions about our ministries, 
+            want to get involved, or need prayer support, don't hesitate to reach out. 
+            Our team is here to serve and connect with you.
+          </p>
         </div>
       </div>
     </div>

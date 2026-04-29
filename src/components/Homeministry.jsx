@@ -39,7 +39,7 @@ const Homeministry = () => {
           Our Ministries
         </p>
         <h2 className="text-2xl md:text-[40px] w-full md:w-[600px] mx-auto font-semibold text-black mt-2">
-          Explore our impactful Minsitries around the world
+          Explore our impactful Ministries around the world
         </h2>
 
         {/* Decorative underline */}

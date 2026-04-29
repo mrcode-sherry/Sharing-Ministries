@@ -43,19 +43,11 @@ const Footer = () => {
           <h3 className="text-xl font-semibold text-white mb-6">Contact</h3>
           <ul className="space-y-5 text-base">
             <li>
-              <Link 
-                href="/contact" 
-                className="relative inline-block hover:text-[#0085DD] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#0085DD] hover:after:w-full after:transition-all after:duration-500"
-              >
-                Contact Page
-              </Link>
-            </li>
-            <li>
               <div className="flex items-start space-x-3">
                 <MapPin size={20} className="mt-0.5 text-[#5BB7E6]" />
                 <div>
                   <span className="font-semibold text-white block">Address:</span>
-                  <span>5919 Trussville Crossings Pkwy, Birmingham AL 35235</span>
+                  <span>Street # 3, block-A, barkat Pura, mohalla Waris Pura, Faisalabad, Pakistan.</span>
                 </div>
               </div>
             </li>
@@ -64,12 +56,20 @@ const Footer = () => {
                 <Mail size={20} className="mt-0.5 text-[#5BB7E6]" />
                 <div>
                   <span className="font-semibold text-white block">Email:</span>
-                  <Link 
-                    href="mailto:info@validtheme.com" 
-                    className="relative inline-block hover:text-[#0085DD] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#0085DD] hover:after:w-full after:transition-all after:duration-500"
-                  >
-                    info@validtheme.com
-                  </Link>
+                  <div className="space-y-1">
+                    <Link 
+                      href="mailto:Jabneeamir@gmail.com" 
+                      className="relative inline-block hover:text-[#0085DD] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#0085DD] hover:after:w-full after:transition-all after:duration-500 block"
+                    >
+                      Jabneeamir@gmail.com
+                    </Link>
+                    <Link 
+                      href="mailto:evangelistsharoonshahzad@gmail.com" 
+                      className="relative inline-block hover:text-[#0085DD] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#0085DD] hover:after:w-full after:transition-all after:duration-500 block"
+                    >
+                      evangelistsharoonshahzad@gmail.com
+                    </Link>
+                  </div>
                 </div>
               </div>
             </li>
@@ -78,12 +78,20 @@ const Footer = () => {
                 <Phone size={20} className="mt-0.5 text-[#5BB7E6]" />
                 <div>
                   <span className="font-semibold text-white block">Phone:</span>
-                  <Link 
-                    href="tel:+12334598768" 
-                    className="relative inline-block hover:text-[#0085DD] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#0085DD] hover:after:w-full after:transition-all after:duration-500"
-                  >
-                    +123 34598768
-                  </Link>
+                  <div className="space-y-1">
+                    <Link 
+                      href="tel:+923338362483" 
+                      className="relative inline-block hover:text-[#0085DD] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#0085DD] hover:after:w-full after:transition-all after:duration-500 block"
+                    >
+                      +92 333 8362483
+                    </Link>
+                    <Link 
+                      href="tel:+923046325687" 
+                      className="relative inline-block hover:text-[#0085DD] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#0085DD] hover:after:w-full after:transition-all after:duration-500 block"
+                    >
+                      +92 304 6325687
+                    </Link>
+                  </div>
                 </div>
               </div>
             </li>
