@@ -8,87 +8,131 @@ const projects = [
         id: "1",
         title: "Crusade ministry",
         description:
-            `Jesus Sharing Ministry is dedicated to proclaiming the life-changing message of Jesus Christ to people from all walks of life. Our crusades are powerful gatherings where the gospel is preached with passion, the presence of God is experienced, and lives are transformed by His grace.
-Our vision is to see the gospel spread across nations, bringing light to dark places and hope to the hopeless — fulfilling the Great Commission to “Go into all the world and preach the gospel to all creation” (Mark 16:15).
+            `At Jesus Sharing Ministries, our Crusade Ministry stands at the heart of our calling—to take the Gospel of Jesus Christ beyond church walls and into the streets, villages, and unreached communities. We are deeply committed to fulfilling the Great Commission by reaching people who may have never heard the message of salvation, hope, and freedom in Christ.
 
-Through worship, prayer, and the preaching of God’s Word, we bring together communities to encounter the love, hope, and salvation found only in Jesus. We believe that every soul is precious to God, and our mission is to reach as many as possible with His truth.
+Our crusades are prayerfully organized in both rural and urban areas, especially focusing on places where access to the Gospel is limited. Before every crusade, our team spends time in fasting and prayer, seeking the guidance of the Holy Spirit so that each gathering becomes a divine appointment for those who attend.
 
-In each crusade, we witness hearts turning to Christ, chains of bondage being broken, and faith being ignited. Men, women, and children come together in unity, lifting their hands in praise and opening their hearts to receive God’s blessings.`,
-        images: ["/crusade/Crusadeimg1.jpg", "/crusade/Crusadeimg2.jpg", "/crusade/Crusadeimg3.jpg"],
+During these open-air meetings, the atmosphere is filled with passionate worship, heartfelt prayers, and powerful preaching of God's Word. We boldly proclaim the message of the cross—repentance, salvation, healing, deliverance, and restoration through Jesus Christ. We believe that the Gospel is not just words, but the power of God that transforms lives.
+
+As the Word is preached, we witness the Holy Spirit moving among the people—touching hearts, breaking chains, and bringing freedom. Many respond to the altar call with open hearts, surrendering their lives to Jesus Christ. Testimonies of healing, deliverance, and personal transformation are a regular part of our crusade gatherings, giving glory to God for what He is doing.
+
+We also place a strong emphasis on ministering to individual needs. Our team prays for the sick, encourages the brokenhearted, and stands in faith with those seeking breakthrough in their lives. We believe in showing not only the message of Christ but also His compassion and love in action.
+
+Our mission does not end with the crusade event. We are committed to follow-up and discipleship. New believers are connected with local churches and small groups where they can grow in their faith, learn God's Word, and become strong disciples of Jesus Christ. We also continue to visit these areas to strengthen and encourage the believers.
+
+Through our Crusade Ministry, we are seeing communities impacted, lives restored, and hope revived. What begins as a simple gathering often becomes the starting point of a powerful spiritual transformation in entire families and villages.
+
+"Go into all the world and preach the gospel to all creation." – Mark 16:15
+
+With this calling in our hearts, Jesus Sharing Ministries continues to go wherever God leads—carrying the light of Christ, sharing His love, and proclaiming His truth to the nations.`,
+        images: ["/crusade/1. crusade.jpg", "/crusade/2. crusade.jpg", "/crusade/3. crusade.jpg", "/crusade/4. crusade.jpg", "/crusade/5. crusade.jpg"],
     },
     {
         id: "2",
-        title: "Outdoor evangelism",
+        title: "Outreach Ministry",
         description:
-            `Jesus Sharing Ministry is committed to taking the Gospel beyond the walls of the church and into the heart of communities. Our outdoor evangelism is about meeting people right where they are — in streets, villages, and open grounds — so that no one misses the opportunity to hear about the saving love of Jesus Christ.
+            `At Jesus Sharing Ministries, our Outreach Ministry is the expression of God's love in action. We are passionate about going beyond the church walls to reach people in their everyday lives—especially those who are hurting, broken, neglected, and in need of hope.
 
-In these gatherings, we share God’s Word in a simple, powerful way that speaks to every age and background. Worship and praise echo under the open sky, drawing people closer to God. We pray for the sick, encourage the brokenhearted, and offer the message of hope to those who feel forgotten.
+Our outreach efforts focus on building genuine relationships within communities. We regularly visit villages, homes, and local areas, taking time to listen to people, understand their struggles, and share the love of Jesus Christ in a personal and meaningful way. We believe that true ministry begins with compassion and connection.
 
-These meetings are often the first encounter many have with the Gospel, and we have witnessed countless lives transformed — families restored, hearts healed, and faith awakened. Outdoor evangelism is our way of carrying light into the darkest places and showing that Jesus cares for every soul.
+Through our outreach, we share the Gospel one-on-one and in small gatherings, allowing people to ask questions, open their hearts, and experience the truth of God's Word. Whether it is through a simple conversation, prayer, or encouragement, we aim to reflect Christ in everything we do.
 
-"How beautiful are the feet of those who bring good news!" – Romans 10:15`,
-        images: ["/outdoor/Outdoorimg1.jpg", "/outdoor/Outdoorimg2.jpg"],
+We also engage in practical acts of kindness—helping families in need, supporting children, praying for the sick, and standing with those who are going through difficult times. Our desire is not only to preach the Gospel but to demonstrate it through love, service, and care.
+
+Children and youth are a special focus of our outreach. We organize activities, Bible lessons, and small events that help them learn about Jesus in a joyful and engaging way. These moments often become seeds that grow into strong faith in their lives.
+
+Every outreach is guided by prayer and led by the Holy Spirit. We believe that even the smallest act of love can open a door for God to move powerfully in someone's life. Many people we meet through outreach later become part of our church family, growing in their relationship with Christ.
+
+Our mission is to reach the unreached, strengthen the weak, and bring hope to every heart we encounter. Through Outreach Ministry, we continue to be the hands and feet of Jesus—serving people, loving unconditionally, and pointing them to the Savior.
+
+"Let your light shine before others, that they may see your good deeds and glorify your Father in heaven." – Matthew 5:16
+
+At Jesus Sharing Ministries, we are committed to shining that light—one life, one family, and one community at a time.`,
+        images: ["/outreach/1. outreach.jpg", "/outreach/2. outreach.jpg", "/outreach/3. outreach.jpg", "/outreach/4. outreach.jpg", "/outreach/5. oureach.jpg"],
     },
     {
         id: "3",
-        title: "Food distribution",
+        title: "Compassion Ministry",
         description:
-            `At Jesus Sharing Ministries, we believe in showing the love of Christ through practical acts of kindness. One of our key outreach efforts is our Food Relief Program, dedicated to supporting families in need.
+            `At Jesus Sharing Ministries, our Compassion Ministry reflects the heart of Jesus by serving those in need with love, dignity, and care. We believe that the Gospel is not only to be preached but also to be demonstrated through acts of kindness and compassion.
 
-In many communities, poverty and lack of resources leave families struggling to meet their daily needs. Through the generosity , we are able to distribute essential food packages to the most vulnerable. Each package contains basic food items to help sustain families and bring hope during difficult times.
+This ministry is dedicated to reaching the poor, the hungry, the widows, the orphans, and families facing difficult circumstances. Through practical support such as food distribution and care initiatives, we strive to meet immediate needs while sharing the hope found in Jesus Christ.
 
-Our mission is not only to meet physical needs but also to share the message of God's love and compassion. During each distribution, we take time to pray with recipients, encourage them, and remind them that they are not forgotten.
+We regularly distribute food to struggling families, especially in underprivileged communities and rural areas. For many, this support is a lifeline during times of hardship. But beyond providing meals, our desire is to remind people that they are seen, valued, and deeply loved by God.
 
-“For I was hungry and you gave me something to eat…” – Matthew 25:35
+Our team approaches every opportunity to serve with humility and compassion—taking time to pray with individuals, encourage them, and stand with them in their challenges. We believe that even a simple act of kindness can open hearts to experience God's love in a powerful way.
 
-Together, we can make a difference—one family, one meal, and one act of love at a time.`,
-        images: ["/food/Foodimg2.jpg", "/food/Foodimg1.jpg", "/food/Foodimg3.jpg"],
+Children and vulnerable individuals are at the center of our compassion efforts. We aim to bring joy, hope, and a sense of belonging to those who often feel forgotten. Whether it is through providing meals, visiting homes, or offering support in times of crisis, we are committed to being the hands and feet of Jesus.
+
+Compassion Ministry is not just about meeting physical needs—it is about restoring hope, building relationships, and pointing people to a life-changing relationship with Christ. Many lives have been touched through these efforts, and we continue to trust God to use this ministry to impact even more.
+
+"For I was hungry and you gave me something to eat, I was thirsty and you gave me something to drink..." – Matthew 25:35
+
+At Jesus Sharing Ministries, we are committed to living out this calling—serving with love, giving with joy, and bringing hope to every life we encounter.`,
+        images: ["/Compassion/1. compassion.jpg", "/Compassion/2. compassion.jpg", "/Compassion/3. compassion.jpg", "/Compassion/4. compassion.jpg", "/Compassion/5. compassion.jpg"],
     },
     {
         id: "4",
-        title: "Medical help",
+        title: "Health and Medical Ministry",
         description:
-            `At Jesus Sharing Ministries, we understand that many families in rural and underprivileged areas face serious health challenges but have little or no access to proper medical care. Through our Social Ministry, we extend the love of Christ by offering medical assistance to those in need.
+            `At Jesus Sharing Ministries, our Health and Medical Ministry is a vital expression of God's love and compassion in action. We are committed to caring for the physical needs of individuals while also sharing the healing hope found in Jesus Christ.
 
-Our medical outreach programs provide:
+Many communities we serve have limited access to basic healthcare and medical support. Through this ministry, we strive to reach those who are suffering due to illness, poverty, and lack of medical resources. Our mission is to bring relief, care, and encouragement to those who need it most.
 
-Free medical check-ups for individuals and families
+We provide medical assistance to individuals and families who cannot afford treatment, helping them access basic healthcare, medicines, and support during times of sickness. Whether it is assisting with doctor visits, providing essential medicines, or offering guidance and care, we seek to stand with people in their time of need.
 
-Basic medicines for common illnesses
+Alongside practical help, we also believe deeply in the power of prayer. Our team regularly prays for the sick, trusting God for healing, restoration, and strength. We believe that Jesus is still the healer, and we have seen lives touched through both medical care and the power of faith.
 
-Guidance and health education to promote better living
+Our ministry also focuses on raising awareness about basic health and hygiene, helping communities understand how to take care of themselves and their families. Through simple guidance and support, we aim to improve overall well-being and prevent illness where possible.
 
-Referrals for those requiring specialized care
+Every act of care is carried out with love, respect, and dignity. We do not just see patients—we see people created in the image of God, worthy of care, attention, and compassion. Our goal is not only to bring physical healing but also to share the peace, hope, and new life that comes through a relationship with Jesus Christ.
 
+"He heals the brokenhearted and binds up their wounds." – Psalm 147:3
 
-This work is made possible through the dedication of compassionate volunteers and the generosity of donors who believe in our mission. Just as Jesus cared for the sick and healed the broken, we strive to follow His example by bringing hope, comfort, and healing to both body and soul.
-
-“He heals the brokenhearted and binds up their wounds.” – Psalm 147:3
-
-Your support enables us to reach more people with life-changing help. Together, we can save lives and share God’s love in practical ways.`,
-        images: ["/medical/Medicalimg1.jpg", "/medical/Medica2.jpg", "/medical/Medicalimg3.jpg"],
+Through our Health and Medical Ministry, we continue to serve as the hands of Jesus—bringing healing, hope, and compassion to every life we touch.`,
+        images: ["/medical/Medical.jpeg", "/medical/Medical2.jpeg", "/medical/Medical3.jpeg"],
     },
     {
         id: "5",
-        title: "Kids ministry",
+        title: "Children's Ministry",
         description:
-            `At Jesus Sharing Ministries, our heart beats for the children—especially those who are often forgotten. Many of the children we reach work in factories or labor alongside their families, unable to attend school or enjoy a normal childhood. Through our Kids Ministry, we are committed to bringing them hope, love, and the message of Jesus Christ.
+            `At Jesus Sharing Ministries, our Children's Ministry is a joyful and vital part of our mission. We believe that children are a precious gift from God and an important part of His Kingdom. Our desire is to nurture young hearts, helping them grow in the love, truth, and knowledge of Jesus Christ from an early age.
 
-We organize special gatherings where children can learn Bible stories, sing songs, express their creativity through drawing and crafts, and simply enjoy being kids. These moments not only plant seeds of faith but also encourage them to dream beyond their current struggles.
+We are passionate about creating a safe, loving, and engaging environment where children can experience God in a real and meaningful way. Through Bible lessons, storytelling, worship, games, and creative activities, we teach children the Word of God in ways they can understand and enjoy.
 
-Our mission is to give these precious children a safe space where they are valued, encouraged, and reminded that they are loved by God and created for a purpose. By reaching them today, we believe we are shaping a brighter, faith-filled tomorrow.`,
-        images: ["/kids/kidsimg1.jpg", "/kids/kidsimg2.jpg"],
+Our goal is not just to teach, but to build a strong spiritual foundation in each child's life. We encourage them to develop a personal relationship with Jesus, learn how to pray, and understand the values of love, kindness, obedience, and faith.
+
+We regularly organize children's gatherings, special events, and conventions where kids can come together to learn, worship, and have fun. These moments are filled with joy and excitement, while also planting seeds of faith that will grow throughout their lives.
+
+We also care deeply about the overall well-being of every child. Through our ministry, we aim to bring hope, encouragement, and support—especially to children from underprivileged backgrounds. Whether through teaching, prayer, or acts of kindness, we strive to show every child that they are loved, valued, and created with a purpose.
+
+Our team is committed to serving children with patience, dedication, and compassion. We believe that investing in children today is shaping the future of the Church and the next generation of leaders.
+
+"Let the little children come to me, and do not hinder them, for the kingdom of God belongs to such as these." – Mark 10:14
+
+At Jesus Sharing Ministries, we are honored to guide children on their journey of faith—helping them grow strong in Christ and shine His light wherever they go.`,
+        images: ["/Children/Children.jpeg", "/Children/Children-2.jpeg", "/Children/Children-3.jpeg", "/Children/Children-4.jpeg", "/Children/Children-5.jpeg"],
     },
     {
         id: "6",
-        title: "Reaching communities",
+        title: "Education Ministry",
         description:
-            `At Jesus Sharing Ministries, we believe that the Gospel is for everyone—no matter where they live or what their circumstances may be. Through our Reaching Communities Ministry, we go into villages, rural areas, and underprivileged neighborhoods to share the Good News of Jesus Christ.
+            `At Jesus Sharing Ministries, our Education Ministry is dedicated to empowering children, youth, and communities through learning, knowledge, and the Word of God. We believe that education is a powerful tool that not only transforms lives but also opens doors for hope, opportunity, and a better future.
 
-Many of the communities we visit have limited access to churches, pastors, or any Christian fellowship. We gather with them in homes, courtyards, and open spaces, bringing worship, the Word of God, and prayer into their midst. These meetings are often filled with heartfelt worship, powerful preaching, and life-changing encounters with God’s presence.
+Many children and families in the communities we serve face challenges in accessing quality education and learning resources. Through this ministry, we seek to support and encourage them by providing educational assistance, guidance, and learning opportunities where possible.
 
-Our mission is not only to preach but to build lasting relationships, encourage believers, and bring hope to those who feel forgotten. We believe that by reaching out in love and compassion, lives will be transformed, families restored, and entire communities impacted for the glory of God.`,
-        images: ["/reaching/reachingimg1.jpg", "/reaching/reachingimg2.jpg"],
+Our focus is not only on academic growth but also on spiritual and moral development. We believe that true education is complete when it shapes both the mind and the heart. Alongside basic learning support, we also teach biblical values such as integrity, discipline, respect, and faith in God.
+
+We aim to create a supportive environment where children can learn with confidence and grow in their abilities. Through tutoring support, learning activities, and community-based education efforts, we strive to help students build a strong foundation for their future.
+
+Our Education Ministry also encourages parents and families to value learning and support their children's growth. We believe that when a child is educated and rooted in God's truth, they can become a positive influence in their homes, communities, and beyond.
+
+Every effort in this ministry is guided by our desire to serve with love and purpose. We see education not just as knowledge, but as a way to uplift lives and open hearts to the truth of Jesus Christ.
+
+"The fear of the Lord is the beginning of wisdom, and knowledge of the Holy One is understanding." – Proverbs 9:10
+
+At Jesus Sharing Ministries, we are committed to raising a generation that is educated, strong in faith, and equipped to impact the world for Christ.`,
+        images: ["/Education/Education.jpeg", "/Education/Education-2.jpeg", "/Education/Education-3.jpeg", "/Education/Education-4.jpeg"],
     },
 ];
 

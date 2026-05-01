@@ -81,13 +81,13 @@ const Footer = () => {
                   <div className="space-y-1">
                     <Link 
                       href="tel:+923338362483" 
-                      className="relative inline-block hover:text-[#0085DD] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#0085DD] hover:after:w-full after:transition-all after:duration-500 block"
+                      className="block hover:text-[#0085DD] transition-colors duration-300"
                     >
                       +92 333 8362483
                     </Link>
                     <Link 
                       href="tel:+923046325687" 
-                      className="relative inline-block hover:text-[#0085DD] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#0085DD] hover:after:w-full after:transition-all after:duration-500 block"
+                      className="block hover:text-[#0085DD] transition-colors duration-300"
                     >
                       +92 304 6325687
                     </Link>

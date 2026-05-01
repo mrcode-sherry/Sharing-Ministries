@@ -7,26 +7,47 @@ const projects = [
         id: "1",
         title: "Crusade ministry",
         description:
-            `Jesus Sharing Ministry is dedicated to proclaiming the life-changing message of Jesus Christ to people from all walks of life. Our crusades are powerful gatherings where the gospel is preached with passion, the presence of God is experienced, and lives are transformed by His grace.
-Our vision is to see the gospel spread across nations, bringing light to dark places and hope to the hopeless — fulfilling the Great Commission to “Go into all the world and preach the gospel to all creation” (Mark 16:15).
+            `At Jesus Sharing Ministries, our Crusade Ministry stands at the heart of our calling—to take the Gospel of Jesus Christ beyond church walls and into the streets, villages, and unreached communities. We are deeply committed to fulfilling the Great Commission by reaching people who may have never heard the message of salvation, hope, and freedom in Christ.
 
-Through worship, prayer, and the preaching of God’s Word, we bring together communities to encounter the love, hope, and salvation found only in Jesus. We believe that every soul is precious to God, and our mission is to reach as many as possible with His truth.
+Our crusades are prayerfully organized in both rural and urban areas, especially focusing on places where access to the Gospel is limited. Before every crusade, our team spends time in fasting and prayer, seeking the guidance of the Holy Spirit so that each gathering becomes a divine appointment for those who attend.
 
-In each crusade, we witness hearts turning to Christ, chains of bondage being broken, and faith being ignited. Men, women, and children come together in unity, lifting their hands in praise and opening their hearts to receive God’s blessings.`,
-        images: ["/crusade/Crusadeimg1.jpg", "/crusade/Crusadeimg2.jpg", "/crusade/Crusadeimg3.jpg"],
+During these open-air meetings, the atmosphere is filled with passionate worship, heartfelt prayers, and powerful preaching of God's Word. We boldly proclaim the message of the cross—repentance, salvation, healing, deliverance, and restoration through Jesus Christ. We believe that the Gospel is not just words, but the power of God that transforms lives.
+
+As the Word is preached, we witness the Holy Spirit moving among the people—touching hearts, breaking chains, and bringing freedom. Many respond to the altar call with open hearts, surrendering their lives to Jesus Christ. Testimonies of healing, deliverance, and personal transformation are a regular part of our crusade gatherings, giving glory to God for what He is doing.
+
+We also place a strong emphasis on ministering to individual needs. Our team prays for the sick, encourages the brokenhearted, and stands in faith with those seeking breakthrough in their lives. We believe in showing not only the message of Christ but also His compassion and love in action.
+
+Our mission does not end with the crusade event. We are committed to follow-up and discipleship. New believers are connected with local churches and small groups where they can grow in their faith, learn God's Word, and become strong disciples of Jesus Christ. We also continue to visit these areas to strengthen and encourage the believers.
+
+Through our Crusade Ministry, we are seeing communities impacted, lives restored, and hope revived. What begins as a simple gathering often becomes the starting point of a powerful spiritual transformation in entire families and villages.
+
+"Go into all the world and preach the gospel to all creation." – Mark 16:15
+
+With this calling in our hearts, Jesus Sharing Ministries continues to go wherever God leads—carrying the light of Christ, sharing His love, and proclaiming His truth to the nations.`,
+        images: ["/crusade/1. crusade.jpg", "/crusade/2. crusade.jpg", "/crusade/3. crusade.jpg", "/crusade/4. crusade.jpg", "/crusade/5. crusade.jpg"],
     },
     {
         id: "2",
-        title: "Outdoor evangelism",
+        title: "Outreach Ministry",
         description:
-            `Jesus Sharing Ministry is committed to taking the Gospel beyond the walls of the church and into the heart of communities. Our outdoor evangelism is about meeting people right where they are — in streets, villages, and open grounds — so that no one misses the opportunity to hear about the saving love of Jesus Christ.
+            `At Jesus Sharing Ministries, our Outreach Ministry is the expression of God's love in action. We are passionate about going beyond the church walls to reach people in their everyday lives—especially those who are hurting, broken, neglected, and in need of hope.
 
-In these gatherings, we share God’s Word in a simple, powerful way that speaks to every age and background. Worship and praise echo under the open sky, drawing people closer to God. We pray for the sick, encourage the brokenhearted, and offer the message of hope to those who feel forgotten.
+Our outreach efforts focus on building genuine relationships within communities. We regularly visit villages, homes, and local areas, taking time to listen to people, understand their struggles, and share the love of Jesus Christ in a personal and meaningful way. We believe that true ministry begins with compassion and connection.
 
-These meetings are often the first encounter many have with the Gospel, and we have witnessed countless lives transformed — families restored, hearts healed, and faith awakened. Outdoor evangelism is our way of carrying light into the darkest places and showing that Jesus cares for every soul.
+Through our outreach, we share the Gospel one-on-one and in small gatherings, allowing people to ask questions, open their hearts, and experience the truth of God's Word. Whether it is through a simple conversation, prayer, or encouragement, we aim to reflect Christ in everything we do.
 
-"How beautiful are the feet of those who bring good news!" – Romans 10:15`,
-        images: ["/outdoor/Outdoorimg1.jpg", "/outdoor/Outdoorimg2.jpg"],
+We also engage in practical acts of kindness—helping families in need, supporting children, praying for the sick, and standing with those who are going through difficult times. Our desire is not only to preach the Gospel but to demonstrate it through love, service, and care.
+
+Children and youth are a special focus of our outreach. We organize activities, Bible lessons, and small events that help them learn about Jesus in a joyful and engaging way. These moments often become seeds that grow into strong faith in their lives.
+
+Every outreach is guided by prayer and led by the Holy Spirit. We believe that even the smallest act of love can open a door for God to move powerfully in someone's life. Many people we meet through outreach later become part of our church family, growing in their relationship with Christ.
+
+Our mission is to reach the unreached, strengthen the weak, and bring hope to every heart we encounter. Through Outreach Ministry, we continue to be the hands and feet of Jesus—serving people, loving unconditionally, and pointing them to the Savior.
+
+"Let your light shine before others, that they may see your good deeds and glorify your Father in heaven." – Matthew 5:16
+
+At Jesus Sharing Ministries, we are committed to shining that light—one life, one family, and one community at a time.`,
+        images: ["/outreach/1. outreach.jpg", "/outreach/2. outreach.jpg", "/outreach/3. outreach.jpg", "/outreach/4. outreach.jpg", "/outreach/5. oureach.jpg"],
     },
 ]
 

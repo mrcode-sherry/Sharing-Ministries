@@ -33,9 +33,9 @@ const Contact = () => {
             <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-dashed border-[#5BB7E6] flex-shrink-0">
               <MapPin size={24} className="text-[#5BB7E6]" />
             </div>
-            <div>
+            <div className="min-w-0 flex-1">
               <p className="font-semibold text-black">Our Location</p>
-              <p className="text-gray-600">Street # 3, block-A, barkat Pura, mohalla Waris Pura, Faisalabad, Pakistan.</p>
+              <p className="text-gray-600 break-words text-sm md:text-base">Street # 3, block-A, barkat Pura, mohalla Waris Pura, Faisalabad, Pakistan.</p>
             </div>
           </div>
 
@@ -44,13 +44,13 @@ const Contact = () => {
             <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-dashed border-[#5BB7E6] flex-shrink-0">
               <Mail size={24} className="text-[#5BB7E6]" />
             </div>
-            <div>
+            <div className="min-w-0 flex-1">
               <p className="font-semibold text-black">Send Us Mail</p>
               <div className="space-y-1">
-                <a href="mailto:Jabneeamir@gmail.com" className="text-[#5BB7E6] hover:text-[#0085DD] transition-colors block">
+                <a href="mailto:Jabneeamir@gmail.com" className="text-[#5BB7E6] hover:text-[#0085DD] transition-colors block break-all text-sm md:text-base">
                   Jabneeamir@gmail.com
                 </a>
-                <a href="mailto:evangelistsharoonshahzad@gmail.com" className="text-[#5BB7E6] hover:text-[#0085DD] transition-colors block">
+                <a href="mailto:evangelistsharoonshahzad@gmail.com" className="text-[#5BB7E6] hover:text-[#0085DD] transition-colors block break-all text-sm md:text-base">
                   evangelistsharoonshahzad@gmail.com
                 </a>
               </div>
@@ -62,13 +62,13 @@ const Contact = () => {
             <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-dashed border-[#5BB7E6] flex-shrink-0">
               <Phone size={24} className="text-[#5BB7E6]" />
             </div>
-            <div>
+            <div className="min-w-0 flex-1">
               <p className="font-semibold text-black">Call Us</p>
               <div className="space-y-1">
-                <a href="tel:+923338362483" className="text-[#5BB7E6] hover:text-[#0085DD] transition-colors block">
+                <a href="tel:+923338362483" className="text-[#5BB7E6] hover:text-[#0085DD] transition-colors block text-sm md:text-base">
                   +92 333 8362483
                 </a>
-                <a href="tel:+923046325687" className="text-[#5BB7E6] hover:text-[#0085DD] transition-colors block">
+                <a href="tel:+923046325687" className="text-[#5BB7E6] hover:text-[#0085DD] transition-colors block text-sm md:text-base">
                   +92 304 6325687
                 </a>
               </div>
